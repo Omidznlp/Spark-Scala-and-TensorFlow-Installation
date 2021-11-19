@@ -1,7 +1,8 @@
 # Spark-and-Scala-Installation-on-Jupyter-Notebook-for-Machine-Learning
 The repository helps to install Spark and Scala on Jupyter notebook in Ubuntu 18.04
-
+```
 1. pip3 install virtualenv
+```
 2. virtualenv -p python3.6 venv
 3. source venv/bin/activate
 4. pip3 install jupyter notebook
