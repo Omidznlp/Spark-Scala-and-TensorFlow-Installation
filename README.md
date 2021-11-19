@@ -55,3 +55,4 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 16. create a new notebook on the and select the spylon-kernel for language
 '''
 
+![Screenshot from 2021-11-13 11-22-51](https://user-images.githubusercontent.com/87664653/142623180-d4245bb9-f62a-4777-b713-872f7db48e50.png)
