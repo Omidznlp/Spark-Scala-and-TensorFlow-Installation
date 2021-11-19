@@ -48,12 +48,12 @@ $  java --version
 ## Configure bash profile
 9. Append the following lines to end of ~/.bashrc file
 ```
-export SPARK_HOME=<current_directoty>/venv/lib/python3.6/site-packages/pyspark/
+export SPARK_HOME=<venv_directoty>/venv/lib/python3.6/site-packages/pyspark/
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
 ### Note 
-In the fist line of the above lines, please put the name of your current directory instead of "current_directory" in the above lines which you had already created your venv folder inside that. For example, my current directory is /home/omid , Therefore : 
+In the first line above, please put the name of your directory instead of <venv_directoty>, where you have already created your venv folder inside it. For example, my venv_directory is /home/omid which I have used to create my virtual environment inside it. 
 ```
 export SPARK_HOME=/home/omid/venv/lib/python3.6/site-packages/pyspark/
 export PYSPARK_DRIVER_PYTHON=jupyter
