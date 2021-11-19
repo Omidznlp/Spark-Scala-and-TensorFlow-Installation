@@ -53,6 +53,7 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ## Create a notebook and select scala
 '''
 16. create a new notebook on the and select the spylon-kernel for language
-'''
 
-![Screenshot from 2021-11-13 11-22-51](https://user-images.githubusercontent.com/87664653/142623180-d4245bb9-f62a-4777-b713-872f7db48e50.png)
+![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
+
+'''
