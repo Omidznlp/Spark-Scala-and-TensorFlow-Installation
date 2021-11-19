@@ -46,16 +46,18 @@ $  java --version
 8. pip3 install pyspark
 ```
 ## Configure bash profile
-9. append the following lines to end of ~/.bashrc file
+9. Append the following lines to end of ~/.bashrc file
 ```
 export SPARK_HOME=<current_directoty>/venv/lib/python3.6/site-packages/pyspark/
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
-Note: 
-In the fist line of the above lines, please put the name of your current directory instead of "current_directory" in the above lines which you have already created your venv folder inside it.For example, my current directory is /home/omid: 
+### Note 
+In the fist line of the above lines, please put the name of your current directory instead of "current_directory" in the above lines which you had already created your venv folder inside that. For example, my current directory is /home/omid , Therefore : 
 ```
- export SPARK_HOME=/home/omid/venv/lib/python3.6/site-packages/pyspark/ 
+export SPARK_HOME=/home/omid/venv/lib/python3.6/site-packages/pyspark/
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
 ## Update bash profile
 ```
@@ -66,9 +68,15 @@ In the fist line of the above lines, please put the name of your current directo
 12. pip3 install spylon-kernel
 13. python3.6 -m spylon_kernel install --user
 ```
-## Run pyspark
+## Run pyspark or jupyter notebook
 ```
 14. pyspark 
+
+```
+or 
+
+```
+$ jupyter notebook
 ```
 After a few seconds, Jupyter will launch in your browser.
 ## Create a notebook and select spylon-kernel
@@ -76,3 +84,4 @@ After a few seconds, Jupyter will launch in your browser.
 
 ![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
 
+Enjoy it!!!
