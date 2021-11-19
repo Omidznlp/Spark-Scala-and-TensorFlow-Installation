@@ -6,23 +6,52 @@ The repository helps to install Spark and Scala on Jupyter notebook in Ubuntu 18
 $ pwd
 /home/omid/
 ```
-## Install virtual Envire
+## Install virtual environment
 ```
 1. pip3 install virtualenv
 ```
+## Create virtual environment
+```
 2. virtualenv -p python3.6 venv
-3. source venv/bin/activate
-4. pip3 install jupyter notebook
-6. pip3 install pyspark
-7. append the following lines to ~/.bashrc file
+```
+## Activate virutal environment
+```
+4. source venv/bin/activate
+```
+## Install jupyter notebook
+```
+6. pip3 install jupyter notebook
+```
+## Install java
+```
+7.sudo apt-get install openjdk-11-jdk
+```
+## Install pyspark
+```
+8. pip3 install pyspark
+```
+## Configure bash profile
+9. append the following lines to end of ~/.bashrc file
 ```
 export SPARK_HOME=/home/<username>/venv/lib/python3.6/site-packages/pyspark/
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
-8. source ~/.bashrc
-9. pip3 install spylon-kernel
-10. python3.6 -m spylon_kernel install --user
-11. pyspark 
-12. create a new notebook and select the spylon-kernel forlanguage
+## Update bash file
+```
+10. source ~/.bashrc
+```
+## Install spylon for activating Scala
+```
+12. pip3 install spylon-kernel
+13. python3.6 -m spylon_kernel install --user
+```
+## Run pyspark
+```
+14. pyspark 
+```
+## Create a notebook and select scala
+'''
+16. create a new notebook on the and select the spylon-kernel for language
+'''
 
