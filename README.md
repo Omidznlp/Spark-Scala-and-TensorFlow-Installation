@@ -19,7 +19,7 @@ sudo apt-get -y install python3-pip
 ```
 ## Create virtual environment 
 
-Create virtual environment (e.g venv folder) in current directory
+Create virtual environment (e.g venv folder) in the current directory
 ```
 2. virtualenv -p python3.6 venv
 ```
