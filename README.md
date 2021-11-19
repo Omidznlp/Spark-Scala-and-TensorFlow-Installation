@@ -50,10 +50,10 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
 14. pyspark 
 ```
-## Create a notebook and select scala
-'''
-16. create a new notebook on the and select the spylon-kernel for language
+## Create a notebook and select spylon-kernel
+```
+16. create a new notebook on the and select the spylon-kernel
 
 ![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
 
-'''
+```
