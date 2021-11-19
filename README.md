@@ -41,7 +41,7 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 ```
 10. source ~/.bashrc
 ```
-## Install spylon for activating Scala
+## Install spylon for Programming Scala on Jupyter 
 ```
 12. pip3 install spylon-kernel
 13. python3.6 -m spylon_kernel install --user
@@ -51,9 +51,7 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 14. pyspark 
 ```
 ## Create a notebook and select spylon-kernel
-```
-16. create a new notebook on the and select the spylon-kernel
+15. create a new notebook on the and select the spylon-kernel
 
 ![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
 
-```
