@@ -93,9 +93,9 @@ $ jupyter notebook --generate-config
 ```
 ![image](https://user-images.githubusercontent.com/87664653/142846219-567bc776-361d-4263-a242-b2f1d16bac87.png)
 
-As It's shown, configuration file was created in /home/<user_name>/.jupyter/jupyter_notebook_config.py .\
+As It's shown, configuration file was created in /home/<user_name>/.jupyter/jupyter_notebook_config.py .
 
-Example: for me is /home/omid/.jupyter/jupyter_notebook_config.py . Now it can be edited if you want to change some default configuration: \
+Example: for me is /home/omid/.jupyter/jupyter_notebook_config.py . Now it can be edited if you want to change some default configuration: 
 ```
 $ nano /home/omid/.jupyter/jupyter_notebook_config.py
 ```
