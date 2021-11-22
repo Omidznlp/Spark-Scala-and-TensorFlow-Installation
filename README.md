@@ -86,7 +86,7 @@ After a few seconds, Jupyter will launch in your browser.
 
 Enjoy it!!!
 
-Additional Options
+## Additional Options
 If you want to change the default configuration of your Jupyter notebook, insert the below command to create configuration file.
 ```
 $ jupyter notebook --generate-config
