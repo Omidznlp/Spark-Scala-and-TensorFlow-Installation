@@ -85,3 +85,16 @@ After a few seconds, Jupyter will launch in your browser.
 ![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
 
 Enjoy it!!!
+
+Additional Options
+If you want to change the default configuration of your Jupyter notebook, insert the below command to create configuration file.
+```
+$ jupyter notebook --generate-config
+```
+![image](https://user-images.githubusercontent.com/87664653/142846219-567bc776-361d-4263-a242-b2f1d16bac87.png)
+
+As It's shown, configuration file was created in home/<user_name>/.jupyter/jupyter_notebook_config.py: for example for me is /home/omid/.jupyter/jupyter_notebook_config.py . Now it can be edited if you want to change some default configuration:
+$ nano /home/omid/.jupyter/jupyter_notebook_config.py
+![image](https://user-images.githubusercontent.com/87664653/142846608-961d6aef-32fa-4eee-98e2-a05f61166bff.png)
+
+
