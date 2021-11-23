@@ -84,7 +84,9 @@ After a few seconds, Jupyter will launch in your browser.
 
 ![image](https://user-images.githubusercontent.com/87664653/142623665-02eb4dc8-2847-4d9b-aad0-a2303020a4a5.png)
 
-Enjoy it!!!
+Please give an star if it works well for you ;))
+
+Enjoy it!!! 
 
 ## Additional Options
 If you want to change the default configuration of your Jupyter notebook, insert the below command to create configuration file.
