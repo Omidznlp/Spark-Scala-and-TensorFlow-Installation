@@ -1,6 +1,7 @@
-# Spark and Scala Installation on Jupyter Notebook for Machine-Learning
-The repository helps to install Spark and Scala on Jupyter notebook in Ubuntu 18.04
+# Spark and Scala Installation for Supervised Learning and TensorFlow for Deep Learning on Jupyter Notebook
+The repository helps to install Spark, Scala and TensorFlow on Jupyter notebook in Ubuntu 18.04
 
+## Spark and Scala Installation 
 ## Check Current Directory
 ```
 $ pwd
@@ -103,4 +104,13 @@ $ nano /home/omid/.jupyter/jupyter_notebook_config.py
 ```
 ![image](https://user-images.githubusercontent.com/87664653/142846608-961d6aef-32fa-4eee-98e2-a05f61166bff.png)
 
+## TensorFlow Installation 
 
+If you haven't already created a virtual environment and installed a Jupyter notebook, do so now by following the 6 steps in the previous section and then following the instructions below:
+
+Install latest stable release with CPU and CPU support
+
+```
+pip3 install --upgrade tensorflow
+```
+For more information: https://www.tensorflow.org/install/pip
