@@ -114,3 +114,5 @@ Install latest stable release with CPU and CPU support
 pip3 install --upgrade tensorflow
 ```
 For more information: https://www.tensorflow.org/install/pip
+
+After that, you can use Python 3 to program Deep Learning.
