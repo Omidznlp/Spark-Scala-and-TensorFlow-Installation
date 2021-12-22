@@ -1,4 +1,4 @@
-# Spark and Scala Installation for Supervised Learning and TensorFlow for Deep Learning on Jupyter Notebook
+# Spark and Scala Installation for Supervised Learning and TensorFlow Installation for Deep Learning on Jupyter Notebook
 The repository helps to install Spark, Scala and TensorFlow on Jupyter notebook in Ubuntu 18.04
 
 ## Spark and Scala Installation 
